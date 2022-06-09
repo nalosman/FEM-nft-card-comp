@@ -18,12 +18,15 @@
   </style>
 </head>
 <body>
-  <h1 class="hidden">NFT Card Component</h1>
+
+  <h1 class="sr-only">NFT Card Component</h1>
 
   <main>
     <section class="card-container">
       <div class="card-image">
-        <img src="./images/image-equilibrium.jpg" alt="nft main image">
+        <a class="card-preview" href="./images/image-equilibrium.jpg" target="_blank" rel="noopener noreferrer">
+          <img src="./images/image-equilibrium.jpg" alt="nft art">
+        </a>
       </div>
       
       <div class="card-info">
@@ -35,18 +38,16 @@
         </ul>
       </div>
   
-      <hr>
-  
-      <footer class="author">
-        <img src="./images/image-avatar.png" alt="Jules Wyvern avatar">
+      <div class="author">
+        <img src="./images/image-avatar.png" alt="Jules Wyvern">
         <p>Creation of <span class="author-name">Jules Wyvern</span></p>
-      </footer>
+      </div>
     </section>
   </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a target="_blank" href="https://www.nouralosman.com"> 🧚‍♀️ Nour Al-Osman ✨ </a>.
-  </div>
+  </footer>
 </body>
 </html>

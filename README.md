@@ -11,7 +11,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### What I learned
 
-- using the <hr> tag
+- specific accessibility use cases
 - putting a border on a circular image
 
 ## Author
