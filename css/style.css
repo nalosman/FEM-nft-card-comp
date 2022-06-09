@@ -88,7 +88,7 @@ body {
 
 .card-preview:hover::after,
 .card-preview:active::after {
-  background: rgba(0, 255, 247, 0.6) url("/images/icon-view.svg") center/3rem no-repeat;
+  background: rgba(0, 255, 247, 0.6) url("../images/icon-view.svg") center/3rem no-repeat;
   border-radius: 3%;
 }
 
